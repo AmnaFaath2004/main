@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<style>
+td{
+    border: 2px solid white ;
+    background-color: white;
+}
+table{
+     border: 1px solid rgba(92, 87, 87, 0.262) ;
+    background-color: white;
+    padding: 4px;
+}
+td{
+    background-color: aqua;
+    }
+th{
+    background-color: yellow;
+    color: red;
+    width: 20px;
+    height: 40px;
+}
+.a{
+    text-align:center;
+}
+</style>
+</head>
+<body>
+    <form action="">
+        <table>
+            <tr>
+                <th colspan="2">Registration Form</th>
+            </tr>
+<tr>
+    <td class="a"><label for="1">Enter Name</label></td>
+    <td><input type="text" id="1" name="name"></td>
+</tr>
+
+<tr>
+    <td class="a"><label for="2">Enter Password</label></td>
+    <td><input type="password" id="2" name="pass"></td>
+</tr>
+<tr>
+    <td class="a"><label for="3"></label>Enter Address</td>
+<td><textarea name="Address" id="3" rows="5" cols="16"></textarea></td>
+</tr>
+
+<tr>
+<td class="a" rowspan="5"><label for="">Select Name</label></td>
+<td> <input type="checkbox">Hockey</td><br>
+</tr>
+<tr><td><input type="checkbox">Football</td></tr>
+<tr><td><input type="checkbox">Badminton</td></tr>
+<tr><td><input type="checkbox">Cricket</td></tr>
+<tr><td><input type="checkbox">volleyball</td></tr>
+
+<tr><td class="a"><label for="4"></label>Gender</td>
+<td><input type="radio" name="gen" id="4">Male
+<input type="radio" id="5" name="gen">Female</td>
+</tr>
+
+
+<tr>
+    <td class="a"><label for="6">Select your Age</label></td>
+    <td><select name="Age" id="6">
+    <option value="">Select</option>
+    <option value="">10</option>
+<option value="">11</option>
+<option value="">12</option>
+</td>
+</select>
+</tr> 
+
+ <tr>
+    <td class="a"><label for="7">Select Photo</label></td>
+    <td><input type="file" name="file" id="7"></td>
+</tr>
+ 
+
+<tr><td style="text-align: center;" colspan="2" ><button type="button" style="width: 110px; height: 32px;">Click Me</button>
+    <button type="reset" style="width: 110px; height: 32px;">Reset</button>
+<button type="submit" style="width: 110px; height: 32px;">Submit Form</button>
+</tr></td>
+
+
+  </table>
+ </form>
+</body>
+</html>

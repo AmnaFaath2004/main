@@ -1,0 +1,198 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+
+    <style>
+table{
+    border-collapse: collapse;
+    margin: auto;
+    width: 450px;
+}
+
+th{
+    background-color: orange;
+    color: yellow;
+    text-align: left;
+    padding: 12px;
+}
+
+td{
+    background-color: rgb(6,6,51);
+    color: yellow;
+    padding: 10px;
+    text-align: left;
+}
+
+.label{
+    width: 170px;
+    text-align: left;
+}
+
+table{
+    border-collapse: collapse;
+    margin: auto;
+    width: 450px;
+}
+
+th{
+    background-color: orange;
+    color: yellow;
+    text-align: left;
+    padding: 12px;
+}
+
+td{
+    background-color: rgb(6,6,51);
+    color: yellow;
+    padding: 10px;
+}
+
+.label{
+    width: 170px;
+    text-align: left;
+}
+
+input, select{
+    padding: 4px;
+    
+}
+
+select{
+    padding: 4px;
+    margin-right: 5px;
+} 
+.imp{
+    text-align:right;
+}
+</style>
+</head>
+<body>
+    
+    <form action="profile.html">
+        <table>
+<tr>
+    <th colspan="2"   style="background-color: orange; text-align: left; color: yellow; height: 45px;">Sign up</th>
+</tr>
+
+
+<tr>
+    <td class="imp"> <label for="id1" style="color: yellow;">First NAME</label> </td>
+       <td> <input type="text" id="id1" name="name" style="vertical-align: right " required placeholder="Enter First Name">
+     </td>
+</tr>
+
+<tr>
+    <td class="imp">
+        <label for="id2">Last Name</label> </td>
+       <td> <input type="text" id="id2" name="Last" required placeholder="Enter Last Name"></td>
+</tr>
+
+<tr>
+<td class="imp"><label for="id4">Date of Birth</label> </td>
+<td><select name="Birth" id="id4"  >
+<option value="">Date</option>
+<option value="">1</option>
+<option value="">2</option>
+<option value="">3</option>
+<option value="">4</option>
+<option value="">5</option>
+<option value="">6</option>
+<option value="">7</option>
+<option value="">8</option>
+<option value="">9</option>
+<option value="">10</option>
+<option value="">11</option>
+<option value="">12</option>
+</select> 
+
+
+<select name="month" id="id5">
+    <option value="">month</option>
+    <option value="">1</option>
+<option value="">2</option>
+<option value="">3</option>
+<option value="">4</option>
+<option value="">5</option>
+<option value="">6</option>
+<option value="">7</option>
+<option value="">8</option>
+<option value="">9</option>
+<option value="">10</option>
+<option value="">11</option>
+<option value="">12</option>
+</select>  
+
+<select name="year" id="id6">
+    <option value="">year</option>
+<option value="">2000</option>
+<option value="">2001</option>
+<option value="">2002</option>
+<option value="">2003</option> </select> </td>
+
+<tr>
+<td class="imp">
+
+    <label for="">gender</label> </td>
+    <td><input type="radio" id="id7" name="gender" value="male"><label for="id7">Male</label>
+<input type="radio" id="id8" name="gender" value="female"><label for="id8">female</label>
+</td>
+</tr>
+
+<tr>
+    <td class="imp">
+        <label for="">Country</label> </td>
+        <td><select name="country" id="id8">
+            <option value="">country</option>
+            <option value="">India</option>
+            <option value="USA">USA</option>
+</select>
+
+ </td></tr>
+
+
+ <tr><td class="imp">
+<label for="">Email</label> </td>
+<td><input type="email" id="id8" name="email" required placeholder="Enter E-mail"> 
+</td></tr>
+
+<tr><td class="imp">
+<label for="">Phone</label> </td>
+<td>
+<input type="number" id="id9" name="number" required placeholder="Enter phone" step="0" >
+</td></tr>
+
+<tr><td class="imp">
+    <label for="">password</label> </td>
+    <td><input type="password" id="10" name="pass" required >
+</td></tr>
+
+<tr><td class="imp">
+    <label for="11">Confirm  password</label> </td>
+    <td>
+        <input type="password" id="11" name="confirming" required>
+    </td></tr>
+ 
+    <tr><td></td>
+        
+        <td style="text-align: left;">
+        <input type="radio" id="12" name="Terms" required> 
+        
+            <label for="12">I Agree to the Terms of use </label>
+    </td></tr>
+
+
+<tr><td  colspan="2" style="background-color: orange; height: 45px;">
+<button   style="margin-left: 200px;color: white; background-color: green; height: 30px; width: 80px;">Submit</button> 
+ 
+    <button  type="reset" style="color: white;background-color: red; height: 30px; width: 80px;" >Cancel</button>
+</td></tr>
+
+
+        </table>
+    </form>
+</body>
+</html>
