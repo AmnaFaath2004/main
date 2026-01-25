@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: Arial,  sans-serif;
+
+}
+
+.Sidebar{
+
+ background-color: rgb(149, 147, 147);  
+ font-weight: bold;
+ padding: 15px;
+ margin: 9px;
+}
+.container{
+
+  display: grid; 
+  
+  
+  grid-template-columns:1fr 1fr 1fr 1fr;
+  
+  gap: 10px;
+  padding: 15px;
+  
+
+}
+
+.first{
+    height: 100vh;
+}
+body{
+    
+}
+
+.div1{
+    background-color: rgb(196, 192, 192);
+    text-align: center;
+    padding: 15px;
+    border-radius: 4px;
+
+}
+p{
+    padding: 15px;
+    font-size: 18px;
+}
+
+@media screen and (max-width:768px)
+{
+
+.container{
+    grid-template-columns: 1fr 1fr 1fr;
+}
+}
+
+
+@media screen and (max-width:600px)
+    {
+.container,p{
+    grid-template-columns: 1fr 1fr;
+    
+    
+}
+    }
+
+
+@media screen and (max-width:400px)
+{
+    .container{
+        grid-template-columns: 1fr ;
+        
+    }
+}
+    @media screen and (max-width:400px)
+    {
+        .first{
+            background-color: aqua;
+        }
+    }
+    
+
+
+    </style>
+   
+</head>
+<body>
+    <div class="first">
+    <div class="Sidebar">Sidebar content goes here. </div>
+
+<div class="container">
+<div class="div1">Item 1</div>
+<div class="div1">Item 2</div>
+<div class="div1">Item 3</div>
+<div class="div1">Item 4</div>
+</div>
+<p>    This is a paragraph of text that will change size based on the screen width.
+</p>
+
+</div>
+</body>
+</html>
